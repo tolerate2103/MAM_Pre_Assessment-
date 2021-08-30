@@ -29,7 +29,7 @@ namespace MAM_Pre_Assessment
                 Console.Write("Box of imported chocolates at :");
                 Box_of_imported_chocolates = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("===========================================================");
+                Console.WriteLine("============================================");
 
             }
             catch (FormatException ex)

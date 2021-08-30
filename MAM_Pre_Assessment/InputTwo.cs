@@ -21,7 +21,7 @@ namespace MAM_Pre_Assessment
                 Console.Write("Imported bottle of perfume at :");
                 Imported_bottle_of_perfume = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("==================================================");
+                Console.WriteLine("============================================");
             }
             catch (FormatException ex)
             {
@@ -54,7 +54,7 @@ namespace MAM_Pre_Assessment
 
                 Console.WriteLine("Sale Taxes :" + Math.Round(Sales_Tax, 2));
                 Console.WriteLine("Total :" + Total);
-                Console.WriteLine("===========================================");
+                Console.WriteLine("============================================");
             }
         }
     }
